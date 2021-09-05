@@ -16,7 +16,7 @@ end
 function IP(pl)
     local A = pl:getDevice()
     local B = A.ip
-    file.writeLine(fileIP, '[name: ' .. pl.realName .. 'ip: ' .. B .. ', data: ' .. system.getTimeStr() .. ']')
+    file.writeLine(fileIP, '[name: ' .. pl.realName .. ', ip: ' .. B .. ', data: ' .. system.getTimeStr() .. ']')
    
 end
 
